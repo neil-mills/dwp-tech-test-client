@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900);
+
+:root {
+  --black: #0b0c0c;
+  --white: #ffffff;
+  --blue: #1d70b8;
+  --grey: #f3f2f1;
+}
+html {
+	font-size: 62.5%;
+}
+html,
+body {
+	font-family: 'Noto Sans SC', sans-serif;
+}
+body {
+	font-size: 1.6rem;
+  font-weight: 400;
+}
+
+
+html,
+body,
+h1,
+h2,
+h3 {
+	margin: 0;
+	padding: 0;
+}
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+}
+.wrapper {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.header {
+  background-color: var(--black);
+  padding: 30px 0;
+  &__title {
+    color: var(--white);
+    line-height: 1;
+  }
+}
+.link {
+  &:link,
+  &:visited {
+    color: var(--blue);
+    text-decoration: none;
+  }
+}
+.user-list {
+  list-style-type: none;
+  &__item {
+    background-color: var(--grey);
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  &__item-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 8px;
+    line-height: 1;
+  }
+	&__item-meta {
+		list-style-type: none;
+	}
+}
