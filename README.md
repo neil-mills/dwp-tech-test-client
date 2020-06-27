@@ -24,9 +24,9 @@ Running `npm run start` spins up the app on port 8000 in development mode.
 
 Run `npm run test` or `npm run test:coverage`
 
-### Server
+### GraphQL API
 
-The server repo is at at https://github.com/neil-mills/dwp-tech-test-server
+The API repo is at at https://github.com/neil-mills/dwp-tech-test-server
 
 ### Hosted application
 
