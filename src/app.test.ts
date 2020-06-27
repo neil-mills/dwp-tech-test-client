@@ -114,6 +114,6 @@ describe('renderUserList', () => {
 		await App.renderUserList();
 		const errorAlerts = document.querySelectorAll('[data-alert="error"]');
 		expect(errorAlerts.length).toBe(1);
-		expect(errorAlerts[0].textContent).toBe(mockErrorMsg);
+		expect(errorAlerts[0].textContent).toBe(`Error: ${mockErrorMsg}`);
 	});
 });
