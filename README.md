@@ -5,6 +5,7 @@
 ### Approach
 
 I have wrapped the REST API with GraphQL to create a single query `londonUsers` which returns users either living in London or within a 50 mile proximity to London.
+
 As it was not a requirement of the test to use a JS Framework, I have created a single `app.ts` file which queries my GraphQL API using Apollo Client and then renders the user data response to the page.
 
 ### Tech Choices
